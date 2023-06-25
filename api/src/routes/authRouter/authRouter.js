@@ -1,5 +1,6 @@
 const passport = require("passport")
 const { Router } = require('express');
+const session = require('express-session')
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 
 const authRouter = Router();
@@ -62,7 +63,7 @@ res.send ("Inicio de sesion fallido", error)
 //ruta para desloguearte(habria que ponerla en un boton)
 authRouter.use('/google/logout', (req, res) =>{
  req.session.destroy();
- res.send ('Nos vemos pronto')
+ res.redirect('http://localhost:5173/home');
 })
 
 module.exports = authRouter;

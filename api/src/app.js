@@ -35,7 +35,7 @@ server.use((req, res, next) => {
 //inicializamos passport
 // app.set('trust proxy', 1) // descomentar esto 
 // en https trust first proxy
-server.use(session({
+passport.use(session({
   secret: 'misecreto que debe ir en variable de entorno',
   resave: false,
   saveUninitialized: true,
