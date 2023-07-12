@@ -32,7 +32,7 @@ Nuestro objetivo con DevPool es crear una comunidad que esté en constante creci
 <img align="center" width="400px" src='./PF_images/JobsOfferce.png' />
 <img align="center" width="400px" src='./PF_images/Job.png' />
 </p>
-<h2><center>Dashboard (dark)                                  Change the role</center></h2>
+<h2><center>Dashboard (dark) --- Change the role</center></h2>
 <p align="center">
 <img align="center" width="400px" src='./PF_images/Dashboard.png' />
 <img align="center" width="400px" src='./PF_images/Dash2.png' />
